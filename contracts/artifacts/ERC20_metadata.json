@@ -41,19 +41,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					}
-				],
-				"name": "setBanker",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
 						"name": "owner",
 						"type": "address"
 					},
@@ -72,11 +59,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "sender",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
 						"name": "receiver",
 						"type": "address"
 					},
@@ -86,7 +68,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "transferTokensBetweenAddresses",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -105,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleContract.sol": "ERC20Token"
+			"contracts/ExampleContract.sol": "ERC20"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -120,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/ExampleContract.sol": {
-			"keccak256": "0xbf5d81dcd2a3e3b6ca287abf534baa21ad58993a4eb7eddc7ff073b01635b785",
+			"keccak256": "0xee658314f84175588a6b5fe382fdda6fa3538179eb0bcba0e3a4ff06cdb73a50",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a8395576514a7ebaa03dba1673a8b532059ebf36228e7f4c1e2845325dc78af",
-				"dweb:/ipfs/QmQyKusDH7BkR8xTLsfLFvRXiunrQoZPieVRiMEvCMGiVd"
+				"bzz-raw://983773d37ce033a3a871cd94f203f1d81ada3d5be75568436d4d7e1ee34d1a51",
+				"dweb:/ipfs/QmQch4CmzsmFacp1RHQQcShh5U9RxWmEfZmyKAUTE5xaG2"
 			]
 		}
 	},
